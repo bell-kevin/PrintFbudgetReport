@@ -1,21 +1,8 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package printfbudgetreport;
 
-/**
- *
- * @author 4800590195
- */
-public class PrintFbudgetReport {
+class PrintFbudgetReport {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
-        // TODO code application logic here
         final String HEADING_FMT_STR = "%-25s%13s%13s%15s\n";
         final String DATA_FMT_STR = "%-25s%,13.2f%,13.2f%(,15.2f\n";
         double actual1 = 1149.999;
